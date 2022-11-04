@@ -1,0 +1,168 @@
+/*link imports font style from font awesome*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&display=swap');
+
+/*css styling for fonts colors and position of elements*/
+body{
+    background-color:#3E3732;
+    font-family: Fira Sans, sans-serif;
+}
+.icons{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.controls-area{
+    
+    margin-top: 20px;
+    
+}
+.btn--lrg{
+    background-color: #484f4f;
+    color: whitesmoke;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.btn--lrg:hover{
+    font-size: 20px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3em;
+    color: #ffef96;
+}
+
+.game-area{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #c1946a !important;
+    border-style: solid;
+    width: 30%;
+    height: 30vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+#link{
+    color: #FCF9E8;
+    font-weight: bolder;
+    font-size: larger;
+}
+#link:hover{
+    font-size: x-large;
+}
+.anchor{
+   text-align: center;
+   
+}
+
+.s-count{
+    text-align: center;
+    align-items: center;
+    padding: 1em;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #F8ECE2
+}
+
+#choose{
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.score-area{
+    text-align: center;
+    color:#ffef96;
+   
+}
+#user-choice{
+    color: #F8ECE2;
+    font-weight:200;
+}
+#computer-choice{
+    color: #F8ECE2;
+    font-weight:200;
+}
+#result{
+    color: #F8ECE2;
+    font-weight:200;
+}
+/*media queries for small, medium, and large screens. This changes the
+responsivness of the webpage on different devices*/
+@media(max-width:320px){
+    .game-area{
+        width:100%;
+        margin-bottom: 50px;
+    }
+    .heading{
+        font-size: 1.5em;
+    }
+    .anchor{
+        margin-top: 30px;
+    }
+    h4{
+        margin-top: 40px;
+    }
+    .controls-area{
+        margin-bottom: 70px;
+    }
+}
+
+@media(max-width:414px){
+    .game-area{
+        width:100%;
+        margin-bottom: 60px;
+    }
+    .heading{
+        font-size: 1.5em;
+    }
+    .anchor{
+        margin-top: 30px;
+    }
+    h4{
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:950px){
+    .game-area{
+        width:70%;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    .icons{
+        margin-top: 10%;
+    }
+    .score-area{
+        margin-top: 7%;
+    }
+    .s-count{
+        padding-bottom: 5%;
+        margin-top: 5%;
+    }
+}
+
+@media(max-width:1200px){
+    .game-area{
+        width:100%;
+        margin-top: 30px;
+    }
+
+    .s-count{
+        margin-top: 30px;
+    }
+
+    .score-area{
+        margin-top: 10px;
+    }
+
+    .controls-area{
+        margin-top: 20px;
+    }
+    
+
+}
